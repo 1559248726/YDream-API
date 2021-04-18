@@ -1,0 +1,29 @@
+{
+  "name": "ydream-service",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.6.0",
+    "express": "~4.16.1",
+    "jsonwebtoken": "^8.5.1",
+    "express-session": "^1.17.1",
+    "express-validation": "1.0.2",
+    "express-winston": "2.5.0",
+    "bcryptjs": "^2.4.3",
+    "helmet": "^4.1.1",
+    "http-status": "^1.5.0",
+    "joi": "10.6.0",
+    "mongoose": "^5.9.27",
+    "morgan": "^1.10.0",
+    "winston": "2.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
